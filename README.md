@@ -6,5 +6,5 @@
 <a href=""><img src="https://img.shields.io/badge/Version-0.0.0.1-blue"></a>
 </p>
 <p>
-  To see the wiki go here : [Wiki](https://kirosnn.fr/wiki/ultratools/)
+  To see the wiki go here : https://kirosnn.fr/wiki/ultratools/
 </p>
