@@ -37,40 +37,6 @@ public class UpgraderListener implements Listener {
         this.sumExistingEnchantments = plugin.getConfig().getBoolean("sum-existing-enchantments", false);
     }
 
-    private static @NotNull Component parseMixedText(String text) {
-        return MiniMessage.miniMessage().deserialize(convertLegacyColorsToMiniMessage(text));
-    }
-
-    private static @NotNull String convertLegacyColorsToMiniMessage(@NotNull String text) {
-        return text
-                .replace("&0", "<black>")
-                .replace("&1", "<dark_blue>")
-                .replace("&2", "<dark_green>")
-                .replace("&3", "<dark_aqua>")
-                .replace("&4", "<dark_red>")
-                .replace("&5", "<dark_purple>")
-                .replace("&6", "<gold>")
-                .replace("&7", "<gray>")
-                .replace("&8", "<dark_gray>")
-                .replace("&9", "<blue>")
-                .replace("&a", "<green>")
-                .replace("&b", "<aqua>")
-                .replace("&c", "<red>")
-                .replace("&d", "<light_purple>")
-                .replace("&e", "<yellow>")
-                .replace("&f", "<white>")
-                .replace("&k", "<obfuscated>")
-                .replace("&l", "<bold>")
-                .replace("&m", "<strikethrough>")
-                .replace("&n", "<underlined>")
-                .replace("&o", "<italic>")
-                .replace("&r", "<reset>");
-    }
-
-    private static void logWarning(String message) {
-        Bukkit.getLogger().warning("[UltraTools] " + message);
-    }
-
     @EventHandler
     public void onInventoryClick(@NotNull InventoryClickEvent e) {
         Player player = (Player) e.getWhoClicked();
@@ -199,5 +165,39 @@ public class UpgraderListener implements Listener {
         }
 
         return true;
+    }
+
+    private static @NotNull Component parseMixedText(String text) {
+        return MiniMessage.miniMessage().deserialize(convertLegacyColorsToMiniMessage(text));
+    }
+
+    private static @NotNull String convertLegacyColorsToMiniMessage(@NotNull String text) {
+        return text
+                .replace("&0", "<black>")
+                .replace("&1", "<dark_blue>")
+                .replace("&2", "<dark_green>")
+                .replace("&3", "<dark_aqua>")
+                .replace("&4", "<dark_red>")
+                .replace("&5", "<dark_purple>")
+                .replace("&6", "<gold>")
+                .replace("&7", "<gray>")
+                .replace("&8", "<dark_gray>")
+                .replace("&9", "<blue>")
+                .replace("&a", "<green>")
+                .replace("&b", "<aqua>")
+                .replace("&c", "<red>")
+                .replace("&d", "<light_purple>")
+                .replace("&e", "<yellow>")
+                .replace("&f", "<white>")
+                .replace("&k", "<obfuscated>")
+                .replace("&l", "<bold>")
+                .replace("&m", "<strikethrough>")
+                .replace("&n", "<underlined>")
+                .replace("&o", "<italic>")
+                .replace("&r", "<reset>");
+    }
+
+    private static void logWarning(String message) {
+        Bukkit.getLogger().warning("[UltraTools] " + message);
     }
 }
