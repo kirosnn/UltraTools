@@ -1,0 +1,23 @@
+name: UltraTools
+version: '0.0.0.1'
+main: fr.kirosnn.ultraTools.UltraTools
+api-version: '1.18'
+authors: [ kirosnn ]
+website: kirosnn.fr
+
+commands:
+  tools:
+
+
+permissions:
+  tools.reload:
+    default: op
+
+  tools.help:
+    default: op
+
+  tools.giveitem:
+    default: op
+
+  tools.iteminfo:
+    default: op

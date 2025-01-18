@@ -1,0 +1,8 @@
+item:
+  name: special_ingot
+  material: IRON_INGOT
+  type: ore
+  display_name: "<gradient:#0040FF:#00FBFF>Minerais d'Eau</gradient>"
+  lore:
+    - "<gradient:#fafafa:#00FBFF>Devenez maître des océans !</gradient>"
+  custom-model-data: false

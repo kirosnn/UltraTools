@@ -1,0 +1,23 @@
+item:
+  name: super_sword
+  material: DIAMOND_SWORD
+  type: item
+  display_name: "<gradient:#ff0000:#ff8800>Super Sword</gradient>"
+  lore:
+    - "&f┃ &7Incredible Sword"
+  custom-model-data: false
+  enchants:
+    SHARPNESS: 5
+    FIRE_ASPECT: 2
+  attributes:
+    GENERIC_ATTACK_DAMAGE:
+      amount: 10
+      slot: HAND
+      operation: ADD_NUMBER
+  craftable: true
+  crafting-permission: ultraitems.craft.sword
+  recipe:
+    - AIR|STICK|AIR
+    - STICK|DIAMOND|STICK
+    - AIR|STICK|AIR
+  recipe-give-amount: 1

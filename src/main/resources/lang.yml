@@ -1,0 +1,54 @@
+# +------------------------------------------------------+
+# |                                                      |
+# |                                                      |
+# |                                                      |
+# |      _   _ _ _            _____           _          |
+# |     | | | | | |_ _ __ __ |_   _|__   ___ | |___      |
+# |     | | | | | __| '__/ _` || |/ _ \ / _ \| / __|     |
+# |     | |_| | | |_| | | (_| || | (_) | (_) | \__ \     |
+# |      \___/|_|\__|_|  \__,_||_|\___/ \___/|_|___/     |
+# |                                                      |
+# |                                                      |
+# |                                                      |
+# +------------------------------------------------------+
+
+# Lang file for UltraTools plugin.
+
+tools:
+  no-permission: "&d&lᴛᴏᴏʟѕ • &7You don't have permission to use this command."
+  usage: "&d&lᴛᴏᴏʟѕ • &7To see the available commands, do &d/tools help&7."
+  not-a-player: "&d&lᴛᴏᴏʟѕ • &7Only players can use this command!"
+
+commands:
+  help:
+    header: "&d&lᴛᴏᴏʟѕ • &7Available  commands :"
+    list: "&7- &d%command%: &7%description%"
+    footer: "&7 "
+
+  reload:
+    success: "&d&lᴛᴏᴏʟѕ • &7Configuration and language files have been successfully reloaded !"
+    error: "&d&lᴛᴏᴏʟѕ • &7An error occurred while reloading: &d{error}"
+
+  giveitem:
+    usage: "&d&lᴛᴏᴏʟѕ • &7Usage: &d/tools giveitem <player> <item-name>"
+    invalid-player: "&d&lᴛᴏᴏʟѕ • &7The specified player is not online or does not exist."
+    invalid-item: "&d&lᴛᴏᴏʟѕ • &7The specified item does not exist in the 'items' folder."
+    error: "&d&lᴛᴏᴏʟѕ • &7An error occurred while creating the item."
+    success: "&d&lᴛᴏᴏʟѕ • &7The item &d{item} &7was successfully given to &d{player}&7."
+
+  giveupgrader:
+    usage: "&d&lᴛᴏᴏʟѕ • &7Usage: &d/tools giveupgrader <player> <upgrader-name>"
+    invalid-player: "&d&lᴛᴏᴏʟѕ • &7The specified player is not online or does not exist."
+    invalid-upgrader: "&d&lᴛᴏᴏʟѕ • &7The specified upgrader does not exist in the 'items' folder."
+    error: "&d&lᴛᴏᴏʟѕ • &7An error occurred while creating the upgrader."
+    success: "&d&lᴛᴏᴏʟѕ • &7The upgrader &d{upgrader} &7was successfully given to &d{player}&7."
+
+  iteminfo:
+    no-item: "&d&lᴛᴏᴏʟѕ • &7You are not holding any item."
+    no-meta: "&d&lᴛᴏᴏʟѕ • &7This item has no metadata to display."
+    header: "&d&lᴛᴏᴏʟѕ • &7Item Information:"
+
+upgrade:
+  not-applicable: "&d&lᴛᴏᴏʟѕ • &7This item is not compatible with this upgrader."
+  success: "&d&lᴛᴏᴏʟѕ • &7Enchantments have been successfully applied!"
+  error: "&d&lᴛᴏᴏʟѕ • &7An error occurred while using the upgrader."

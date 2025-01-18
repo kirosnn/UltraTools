@@ -1,0 +1,32 @@
+upgrader:
+  name: upgrader
+  display_name: '&8[&e✫&8] <gradient:#ffffff:#fafe2a>Book of Sword</gradient>'
+  lore:
+    - ''
+    - '&f┃ &7Drag and Drop onto &eANY SWORD &7to apply:'
+    - ''
+    - '&f┃ &7Sharpness VII'
+    - '&f┃ &7Smite VI'
+    - '&f┃ &7Sweeping edge V'
+  material: ENCHANTED_BOOK
+  glow: false
+  custom-model-data: 0
+  craftable: true
+  crafting-permission: ultraitems.craft.upgrader
+  recipe:
+    - DIAMOND|STICK|DIAMOND
+    - STICK|DIAMOND|STICK
+    - DIAMOND|STICK|DIAMOND
+  recipe-give-amount: 1
+  enchantments:
+    SHARPNESS: 7
+    SMITE: 6
+    SWEEPING_EDGE: 5
+  applicable-items:
+    - DIAMOND_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - STONE_SWORD
+    - WOODEN_SWORD
+    - NETHERITE_SWORD
+  sum-existing-enchantments: false

@@ -1,0 +1,17 @@
+item:
+  name: ultimate_pickaxe
+  material: DIAMOND_PICKAXE
+  type: item
+  display_name: "<gradient:#00ff00:#00ffff>Pickaxe Ultime</gradient>"
+  lore:
+    - "<white>Une pioche magique !"
+  custom-model-data: false
+  enchants:
+    EFFICIENCY: 5
+  craftable: true
+  crafting-permission: ultraitems.craft.ultimatepickaxe
+  recipe:
+    - "DIAMOND|DIAMOND|DIAMOND"
+    - "STICK|STICK|STICK"
+    - "STICK|STICK|STICK"
+  recipe-give-amount: 1
