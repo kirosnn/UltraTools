@@ -1,7 +1,7 @@
 package fr.kirosnn.ultraTools;
 
 import fr.kirosnn.dAPI.utils.LoggerUtils;
-import fr.kirosnn.dAPI.utils.YamlFile;
+import fr.kirosnn.dAPI.utils.text.YamlFile;
 import fr.kirosnn.ultraTools.commands.ToolsCommand;
 import fr.kirosnn.ultraTools.listeners.UpgraderListener;
 import fr.kirosnn.ultraTools.utils.loaders.LoadItems;

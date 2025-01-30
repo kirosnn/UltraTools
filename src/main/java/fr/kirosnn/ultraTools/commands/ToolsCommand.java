@@ -14,8 +14,7 @@ public class ToolsCommand extends CommandBase {
     public ToolsCommand(UltraTools plugin) {
         this.plugin = plugin;
 
-        this.registerSubCommand("reload", new ReloadSubCommand(plugin));
-        this.registerSubCommand("help", new HelpSubCommand(plugin));
+
         this.registerSubCommand("giveitem", new GiveItemSubCommand(plugin));
         this.registerSubCommand("iteminfo", new ItemInfoSubCommand(plugin));
         this.registerSubCommand("giveupgrader", new GiveUpgraderSubCommand(plugin));
